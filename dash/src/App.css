@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.list{
+  height: 10vh;
+  width: 100%;
+  background-color: darkgray;
+  /* border: 2px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin-right: 2px; */
+    padding-left: 20px;
+}
+.list ul{
+  display: flex;
+  /* gap: 4; */
+  /* justify-content: center; */
+}
+.right{
+  text-align: center;
+  /* float: left; */
+
+}
+.list li{
+  margin-right: 20px;
+}
+.list ul li{
+  margin-right: 30px;
+}
+a{
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+li{
+  list-style: none;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  
+  background-color:darkgray;
+   /* justify-content: center; */
+  color: white;
+}
+.imputbox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 0.5px solid darkgray ;
+
+}
+.register{
+  margin-left: 30%;
+}
+button{
+  border: none;
+}
+.button{
+  margin-left: 3%;
+  padding: 10px 20px;
+  border: 0.5px solid darkgray;
+  background-color: antiquewhite;
+}
+.invalid{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+}
+.productlist{
+  text-align: center;
+  margin-top: 50px;
+  /* margin-bottom: 10px; */
+}
+.h1{
+  margin-bottom: 10px;
+}
+.productlist ul li{
+  display: inline-block;
+  border: 1px solid gray;
+  padding: 5px;
+  width: 150px;
+}
+.productlist button{
+  border: 1px solid gray;
+}
+.productlist a{
+  color: black;
+  margin-left: 10px;
+  border: 1px solid gray;
+}
+.productlist .search{
+  /* text-align: center; */
+  margin-bottom: 10px;
+  padding: 10px 40px;
+  /* border: 0.1px solid gray; */
+  border: 0.1px solid gray;
+  color: black;
+  /* opacity: 0.3; */
+  
+}
